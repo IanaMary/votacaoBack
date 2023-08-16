@@ -1,0 +1,305 @@
+[
+  {
+    "_id": "d4e22523-f32e-4a73-ad39-397ef9eba45c",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://www.localhost:9000",
+    "url": "https://www.localhost:9000",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-28T19:43:55.607Z",
+    "modified": "2022-09-28T19:43:55.657Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "ebfb4af7-c4f0-48a0-b468-ed67bd483869",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://www.localhost:9000/users",
+    "url": "http://0.0.0.0:9000/users",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-09-28T19:44:07.225Z",
+    "modified": "2022-12-26T20:34:49.714Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \n  \"email\": \"iana13@gmail.com\",\n  \"password\": \"123456\"\n  \n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "3b49086a-4f3a-474c-b977-4f82abbb07d7",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://localhost:9000/users",
+    "url": "http://localhost:9000/contasSaidas/totalResumo?mes=NOV&ano=2022",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-28T19:46:12.207Z",
+    "modified": "2022-12-26T22:04:34.761Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "mes",
+        "value": "NOV",
+        "isPath": false
+      },
+      {
+        "name": "ano",
+        "value": "2022",
+        "isPath": false
+      }
+    ],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"ianacosta1303@gmail.com\",\n  \"password\": \"Iana13\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYWEwNTY5MzczNDA3MTI0YmI0OWFjMCIsImlhdCI6MTY3MjA4Njg4OX0.a5cYqTq-f0Z0gTjc8A4cnCOWYZsEaCxEXaJzfY-H5WM"
+    },
+    "tests": []
+  },
+  {
+    "_id": "f7a0713a-6c97-4bcc-9a98-dcdf0ddd110a",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:9000",
+    "url": "http://localhost:9000",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-09-28T19:47:00.551Z",
+    "modified": "2022-09-28T19:47:46.204Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "oauth2",
+      "oauth2": {
+        "accessToken": "M0LRWja0fYg4TlVO9G1RFGQGJcxyLKwK",
+        "grantType": "authorization_code",
+        "tokenUrl": "",
+        "clientId": "",
+        "clientSecret": "",
+        "clientAuth": "in-header"
+      }
+    },
+    "tests": []
+  },
+  {
+    "_id": "3e082385-c7cc-4060-9ae5-f56f388c9362",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:9000/users",
+    "url": "http://localhost:9000/users",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-09-28T19:47:56.609Z",
+    "modified": "2022-09-28T19:49:26.327Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"iana@gmail.com\",\n  \"password\": 123456\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "oauth2",
+      "oauth2": {
+        "accessToken": "M0LRWja0fYg4TlVO9G1RFGQGJcxyLKwK",
+        "grantType": "authorization_code",
+        "tokenUrl": "",
+        "clientId": "",
+        "clientSecret": "",
+        "clientAuth": "in-header"
+      }
+    },
+    "tests": []
+  },
+  {
+    "_id": "821ad4bc-fed5-4a61-bb0a-d4a010a725e7",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:9000/users",
+    "url": "http://localhost:9000/contasSaidas/totalPagar",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-28T19:49:33.585Z",
+    "modified": "2022-12-23T21:13:56.883Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"eee\",\n  \"password\": 123456\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMzM0MzA4N2QxOGNhOTVlNjEzYTQxOSIsImlhdCI6MTY3MTgyOTk4MX0.Dg8rLAIeony1jipg4TwsrEzgVz1LBIUFk0_yMN5Qqsw"
+    },
+    "tests": []
+  },
+  {
+    "_id": "60ebe61c-9e91-4884-84e8-7a488a1a1166",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:9000/auth",
+    "url": "http://localhost:9000/auth",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-28T19:49:47.935Z",
+    "modified": "2022-09-28T19:49:47.964Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"iana@gmail.com\",\n  \"password\": 123456\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "oauth2",
+      "oauth2": {
+        "accessToken": "M0LRWja0fYg4TlVO9G1RFGQGJcxyLKwK",
+        "grantType": "authorization_code",
+        "tokenUrl": "",
+        "clientId": "",
+        "clientSecret": "",
+        "clientAuth": "in-header"
+      }
+    },
+    "tests": []
+  },
+  {
+    "_id": "7c702b45-8871-412a-9849-6e13b973a83f",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:9000/auth",
+    "url": "http://localhost:9000/auth",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-09-28T19:49:57.176Z",
+    "modified": "2022-12-28T20:51:05.637Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "basic",
+      "basic": {
+        "username": "iana13@gmail.com",
+        "password": "123456"
+      }
+    },
+    "tests": []
+  },
+  {
+    "_id": "d560f8b4-a54e-41e1-a536-9b1767e9bdf4",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:9000/contasEntradas?page=1&limit=5&mes=SET&ano=2022&user=63372f15a21c829c6f19da2b",
+    "url": "http://localhost:9000/contasEntradas?page=1&limit=5&mes=SET&ano=2022&user=63372f15a21c829c6f19da2b",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-30T18:05:00.974Z",
+    "modified": "2022-09-30T18:07:04.964Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "page",
+        "value": "1",
+        "isPath": false
+      },
+      {
+        "name": "limit",
+        "value": "5",
+        "isPath": false
+      },
+      {
+        "name": "mes",
+        "value": "SET",
+        "isPath": false
+      },
+      {
+        "name": "ano",
+        "value": "2022",
+        "isPath": false
+      },
+      {
+        "name": "user",
+        "value": "63372f15a21c829c6f19da2b",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "oauth2",
+      "oauth2": {
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMzM0MzA4N2QxOGNhOTVlNjEzYTQxOSIsImlhdCI6MTY2NDU2MTIwOH0.yIPAFByeJoyLmXonEVo8WmfmC2WadcbeA6WsRZ1-f5I",
+        "grantType": "authorization_code",
+        "tokenUrl": "",
+        "clientId": "",
+        "clientSecret": "",
+        "clientAuth": "in-header"
+      }
+    },
+    "tests": []
+  },
+  {
+    "_id": "0641b7e7-9e65-47db-b8c4-a68614c8c7ee",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:9000/contasEntradas?page=1&limit=5&mes=SET&ano=2022&user=633343087d18ca95e613a419",
+    "url": "http://localhost:9000/ContasSaidas/totalResumoAnual?limit=10&page=1&sort=-ano",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-09-30T18:07:34.900Z",
+    "modified": "2022-12-29T21:03:31.964Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "limit",
+        "value": "10",
+        "isPath": false
+      },
+      {
+        "name": "page",
+        "value": "1",
+        "isPath": false
+      },
+      {
+        "name": "sort",
+        "value": "-ano",
+        "isPath": false
+      }
+    ],
+    "auth": {
+      "type": "bearer",
+      "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYWEwNTY5MzczNDA3MTI0YmI0OWFjMCIsImlhdCI6MTY3MjM0NzczN30.SiVeJ2QKiBh2kbylK9-LT5XBv1eImUBTaR0cDc4SUZo"
+    },
+    "tests": []
+  }
+]
