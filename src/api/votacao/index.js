@@ -59,7 +59,7 @@ router.get('/',
  * @apiError 401 user access only.
  */
 router.get('/:id',
-  token({ required: true }),
+  // token({ required: true }),
   show)
 
 /**

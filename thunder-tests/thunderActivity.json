@@ -273,29 +273,13 @@
     "colId": "history",
     "containerId": "",
     "name": "http://localhost:9000/contasEntradas?page=1&limit=5&mes=SET&ano=2022&user=633343087d18ca95e613a419",
-    "url": "http://localhost:9000/ContasSaidas/totalResumoAnual?limit=10&page=1&sort=-ano",
+    "url": "http://localhost:9000/votacoes/64de8bc04a42857fa6d3490c",
     "method": "GET",
     "sortNum": 0,
     "created": "2022-09-30T18:07:34.900Z",
-    "modified": "2022-12-29T21:03:31.964Z",
+    "modified": "2023-08-17T21:14:14.427Z",
     "headers": [],
-    "params": [
-      {
-        "name": "limit",
-        "value": "10",
-        "isPath": false
-      },
-      {
-        "name": "page",
-        "value": "1",
-        "isPath": false
-      },
-      {
-        "name": "sort",
-        "value": "-ano",
-        "isPath": false
-      }
-    ],
+    "params": [],
     "auth": {
       "type": "bearer",
       "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzYWEwNTY5MzczNDA3MTI0YmI0OWFjMCIsImlhdCI6MTY3MjM0NzczN30.SiVeJ2QKiBh2kbylK9-LT5XBv1eImUBTaR0cDc4SUZo"

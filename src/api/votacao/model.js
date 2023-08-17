@@ -46,6 +46,7 @@ votacaoSchema.methods = {
       // simple view
       id: this.id,
       user: this.user.view(full),
+      candidatos: this.candidatos,
       nome: this.nome,
       descricao: this.descricao,
       dataInicio: this.dataInicio,

@@ -2,7 +2,7 @@ import { Router } from 'express'
 import { middleware as query } from 'querymen'
 import { middleware as body } from 'bodymen'
 import { token } from '../../services/passport'
-import { create, index, show, update, destroy } from './controller'
+import { create, createMany, index, show, update, destroy } from './controller'
 import { schema } from './model'
 export Candidato, { schema } from './model'
 
@@ -25,6 +25,10 @@ router.post('/',
   token({ required: true, roles: ['admin'] }),
   body({ nome }),
   create)
+
+router.post('/many',
+  token({ required: true, roles: ['admin'] }),
+  createMany)
 
 /**
  * @api {get} /candidatos Retrieve candidatoes

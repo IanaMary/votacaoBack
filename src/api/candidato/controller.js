@@ -7,6 +7,12 @@ export const create = ({ bodymen: { body } }, res, next) =>
     .then(success(res, 201))
     .catch(next)
 
+export const createMany = ({ body }, res, next) => {
+  Candidato.insertMany(body)
+    .then(success(res, 201))
+    .catch(next)
+}
+
 export const index = ({ querymen: { query, select, cursor } }, res, next) =>
   Candidato.count(query)
     .then(count => Candidato.find(query, select, cursor)
