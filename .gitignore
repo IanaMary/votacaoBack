@@ -1,3 +1,4 @@
 /node_modules
 /thunder-tests
-ackage-lock.json
+package-lock.json
+.env
